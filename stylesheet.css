@@ -1,0 +1,264 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+/*	background: #7FAAB1;*/
+
+}
+.nav-item select{
+	background-color: transparent;
+	border: none;
+}
+
+
+.nav-item{
+	font-size: 20px;
+}
+
+.navbar{
+	background-color: #95AEBF;
+
+
+}
+.about-us{
+	margin-top: 80px;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+.bg3{
+    background-image: url(about-us-img.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.bg4{
+      background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+}
+.portfolio{
+	margin: 50px 5%;
+}
+.portfolio-image img{
+	border-radius: 15px;
+ 
+}
+.login{
+	position: absolute;
+	top: 50px;
+	font-size: 13px;
+	visibility: hidden;
+}
+.login-container{
+	position: relative;
+}
+.login-container i:hover~.login{
+	visibility: visible;
+	
+}
+.nav-item a:hover{
+	background-color: white;
+
+}
+.servies{
+	margin: 50px 5%;
+
+}
+.servies-list{
+	border: 1px solid grey;
+	padding: 15px;
+}
+.servies-list:hover{
+	box-shadow: 1px 1px 8px 5px white;
+	background-color: black;
+	color: white;
+}
+.servies-list :hover~.{
+	margin-top: -5px;
+	
+}
+.servies-heading{
+	position: relative;
+}
+.line{
+	width: 45px;
+	height: 5px;
+	background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 48%;
+}
+.servies-heading h1:hover~.line{
+	width: 250px;
+	position: absolute;
+	left: 40%;
+}
+
+
+.servies-item{
+	position: relative;
+}
+.book-button{
+	position: absolute;
+	bottom: -10px;
+	left: 35%;
+
+}
+.servies-list:hover~.book-button{
+	position: absolute;
+	bottom: -40px;	
+
+}
+
+.book-button-1{
+	position: absolute;
+	bottom: -20px;
+	left: 35%;
+}
+.servies-list:hover~.book-button-1{
+	position: absolute;
+	bottom: -40px;
+}
+.book-button-2{
+	position: absolute;
+	bottom: -20px;
+	left: 35%;
+}
+.servies-list:hover~.book-button-2{
+	position: absolute;
+	bottom: -40px;
+}
+.book-button-3{
+	position: absolute;
+	bottom: -20px;
+	left: 35%;
+}
+.servies-list:hover~.book-button-3{
+	position: absolute;
+	bottom: -40px;
+}
+
+.portfolio-heading {
+	position: relative;
+}
+/*.portfolio-heading h1:hover~.line{
+	width: 290px;
+	position: absolute;
+	left: 38%;
+}*/
+
+.line:hover{
+	width: 290px;
+	position: absolute;
+	left: 38%;
+}
+.our-process{
+	overflow-x: hidden;
+	margin: 100px 10%;
+}
+.process-item img:hover{
+	width: 60px;
+	}
+.faq{
+	margin: 10px 5%;
+}
+.banner{
+	background-image: url(banner.jpg);
+	background-size: cover;
+    background-position: center;
+/*	height: 200px;*/
+	overflow-x: hidden;
+	/*padding-right: 5%;
+	padding-left: 5%;*/
+	
+}
+.clients{
+	overflow-x: hidden;
+	margin: 100px 5%;
+}
+
+.bg2{
+	background-color: #2A2E2F;
+}
+.subscribe{
+	margin: 50px 5%;
+	background-color: #2A2E2F;
+}
+.subscribe input{
+	font-size: 15px;
+	padding-right: 100px;
+	margin-top: 35px;
+}
+.subsribe-item{
+	position: relative;
+
+
+}
+.button-2{
+	position: absolute;
+	top: 38px;
+	left: 40%;
+}
+.mcs{
+	margin: 50px 5%; 
+}
+.footer{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.line-2{
+	height: 2px;
+	background-color: grey;
+
+}
+.enquire{
+	background-color: white;
+	width: 280px;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px 3px whitesmoke;
+}
+.enquire button{
+	background-color: red;
+	color: white;
+	padding: 5px 75px;
+	border-radius: 10px;
+	border: none;
+}
+.bg8{
+	background-image: url(cap.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	overflow-x: hidden;
+	border-image:fill 0 linear-gradient(#0001,#000);
+}
+.line-3{
+	width: 100%;
+	height: 2px;
+	background-color: grey;
+	margin-bottom: 10px;
+}
+.social-links{
+	position: fixed;
+	top: 150px;
+	left: 0px;
+}
+@media screen and (min-width:320px) and (max-width:576px){
+	.carousel-item img{
+		height: 100%;
+	}
+	.bg8{
+		width: 100%;
+		
+	}
+	.mcs-img img{
+		width: 120%;
+		margin-top: 27px;
+		
+	}
+
+		
+	
+
+}
